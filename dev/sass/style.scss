@@ -1,0 +1,84 @@
+@import "reset.scss";
+$white: white;
+$brand-color:#f04a4a;
+$gray-darken:#313131;
+$gray-dark:#606060;
+$gray-light:#B0B0B0;
+$gray-lighten:#F7F7F7;
+
+$font: "Trebuchet MS",Verdana, arial, sans-serif;
+
+//General
+a {
+    color: $brand-color;
+}
+
+img {
+    width:100%;
+    height: auto;
+}
+
+body {
+    background-color: $gray-lighten;
+    font-family:$font;
+}
+.h1{
+    font-size: 28px;
+    line-height: 32px;
+    color: $gray-darken;
+    font-weight: bold;
+    font-family:$font;
+}
+
+.h2{
+    font-size:18px;
+    line-height:25px;
+    color:$gray-darken;
+    font-family:$font;
+}
+.p {
+    font-family:$font;
+}
+.secondary, .secondary a {
+    font-family:$font;
+    color: #B0B0B0 ;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+//layout
+.body-wrap {
+    background-color: $gray-lighten;
+    font-family:$font;
+    color: $gray-dark;
+    font-size: 14px;
+}
+.wrap-newsletter {
+    background-color: inherit;
+    background-color: $gray-lighten;
+    font-family:$font;
+}
+
+
+//header
+.linklogo a{ text-decoration:none;font-family:$font;}
+.logo {
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: $gray-darken;
+    font-family:$font;
+}
+
+
+//content
+.content{
+    background-color: white;
+    font-family:$font;
+}
+
+//footer
+.footer{
+    color: $gray-dark;
+    font-family:$font;
+}

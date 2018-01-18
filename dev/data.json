@@ -1,0 +1,14 @@
+{
+
+    "hero": [
+        {
+            "title":"hero title from data.json"
+        }
+    ],
+
+
+    "content": [
+        { "content":"Content from 'content.jade' overide, izuehfizeuhfeziufehzfiuze fzieufhz eiufhze ifuhze"},
+        { "content":"content 2 from data.json"}
+    ]
+}

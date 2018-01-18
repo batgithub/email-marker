@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0 none;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none; }
+
+a img {
+  border: 0 none; }
+
+.imageFix {
+  display: block; }
+
+table, td {
+  border-collapse: collapse; }
+
+.body-wrap {
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  width: 100% !important; }
+
+a {
+  color: #f04a4a; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+body {
+  background-color: #F7F7F7;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.h1 {
+  font-size: 28px;
+  line-height: 32px;
+  color: #313131;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.h2 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #313131;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.p {
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.secondary, .secondary a {
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif;
+  color: #B0B0B0;
+  font-size: 14px;
+  line-height: 18px; }
+
+.body-wrap {
+  background-color: #F7F7F7;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif;
+  color: #606060;
+  font-size: 14px; }
+
+.wrap-newsletter {
+  background-color: inherit;
+  background-color: #F7F7F7;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.linklogo a {
+  text-decoration: none;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.logo {
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #313131;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.content {
+  background-color: white;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }
+
+.footer {
+  color: #606060;
+  font-family: "Trebuchet MS", Verdana, arial, sans-serif; }

@@ -1,0 +1,16 @@
+extends ./layouts/layout.jade
+
+block titlehead
+    title title overide
+
+block heroTitle
+    - each val in hero  
+        =val.title
+
+block content
+    - each val in content 
+        tr
+            td
+                =val.content
+        tr
+            +margin(16)

@@ -1,0 +1,22 @@
+mixin margin(height, width)
+    td(height=height, width=width, style="line-height:#{height}px; font-size:#{height}px; width:#{width}px;")
+        |&nbsp;
+
+mixin lien(href,link)
+    span
+        a.class(href=href) 
+            =link
+        
+mixin button(color,bg,link,val)
+    .button
+        | <!--[if mso]>
+        |<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href=#{link} style="height:44px;v-text-anchor:middle;width:300px;" arcsize="5%" stroke="f" fillcolor=#{bg}>
+        |<w:anchorlock/>
+        |<center>
+        | <!--[endif]-->          
+        a(href=link style="background-color:#{bg};border-radius:5px;color:#{color};display:inline-block;font-family:'Open Sans',Trebuchet MS,Verdana, arial, sans-serif;font-size:16px;line-height:44px;text-align:center; text-decoration:none;width:100%;-webkit-text-size-adjust:none;" target="_blank")
+            = val
+        | <!--[if mso]>
+        |</center>
+        |</v:roundrect>
+        | <!--[endif]-->   
