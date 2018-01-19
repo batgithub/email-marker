@@ -39,6 +39,7 @@ To have a fluid basic layout with max-width Outlook-friendly i use [this trick](
 I use this properties 'border="0" cellpadding="0" cellspacing="0"' on table tag to reset the default behavior.
 
 ### The basic templates
+![email basic template](email_basic_template.png)
 It's gonna give you something like this.
 
 index.jade
