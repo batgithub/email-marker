@@ -1,24 +1,30 @@
 {
-  "name": "structure-jade",
+  "name": "structure-pug",
   "version": "1.0.0",
-  "description": "jade, sass, css-autoprefixer, inlinecss, livereload",
+  "description": "pug, sass, css-autoprefixer, inlinecss, livereload",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Baptiste lhopitault",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/batgithub/email-marker.git"
+  },
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.2",
     "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.1",
     "grunt-inline-css": "^1.0.0",
     "grunt-jsonlint": "^1.1.0",
     "load-grunt-tasks": "^3.5.2"
   },
   "dependencies": {
     "coffeescript": "^2.1.1",
-    "pug": "^2.0.0-rc.4"
+    "npm": "^6.0.0",
+    "pug": "^2.0.3"
   }
 }
