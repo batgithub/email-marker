@@ -14,7 +14,7 @@ mixin button(color,bg,link,val)
         |<w:anchorlock/>
         |<center>
         | <!--[endif]-->          
-        a(href=link style="background-color:#{bg};border-radius:5px;color:#{color};display:inline-block;font-family:'Open Sans',Trebuchet MS,Verdana, arial, sans-serif;font-size:16px;line-height:44px;text-align:center; text-decoration:none;width:100%;-webkit-text-size-adjust:none;" target="_blank")
+        a(href=link style="background-color:" + bg +";border-radius:5px;color:"+ color + ";display:inline-block;font-family:'Open Sans',Trebuchet MS,Verdana, arial, sans-serif;font-size:16px;line-height:44px;text-align:center; text-decoration:none;width:100%;-webkit-text-size-adjust:none;" target="_blank")
             = val
         | <!--[if mso]>
         |</center>
